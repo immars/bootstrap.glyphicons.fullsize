@@ -8,7 +8,7 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
  
- [class^="licon-"],
+[class^="licon-"],
 [class*=" licon-"] {
   display: inline-block;
   width: 25px;
@@ -359,5 +359,322 @@
 	background-position: -480px -128px;
 }
 
+[class^="sicon-"],
+[class*=" sicon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-small.png");
+  background-position: 16px 16px;
+  background-repeat: no-repeat;
+  *margin-right: .3em;
+}
+[class^="sicon-"]:last-child,
+[class*=" sicon-"]:last-child {
+  *margin-left: 0;
+}
+.sicon-white {
+  background-image: url("../img/glyphicons-small-white.png");
+}
+.sicon-gray {
+  background-image: url("../img/glyphicons-small-gray.png");
+}
 
+/*	row 1	*/
+.sicon-trash{
+	background-position: 0 0;
+}
+.sicon-sort{
+	background-position: -16px 0;
+}
+.sicon-moreitems{
+	background-position: -32px 0;
+}
+.sicon-comments{
+	background-position: -48px 0;
+}
+.sicon-hospital{
+	background-position: -64px 0;
+}
+.sicon-settings{
+	background-position: -80px 0;
+}
+.sicon-shield{
+	background-position: -96px 0;
+}
+.sicon-flag{
+	background-position: -112px 0;
+}
+.sicon-female{
+	background-position: -128px 0;
+}
+.sicon-male{
+	background-position: -144px 0;
+}
+.sicon-chat{
+	background-position: -160px 0;
+}
+.sicon-conversation{
+	background-position: -176px 0;
+}
+.sicon-rotationlock{
+	background-position: -192px 0;
+}
+.sicon-riflescope{
+	background-position: -208px 0;
+}
+.sicon-zoomout{
+	background-position: -224px 0;
+}
+.sicon-zoomin{
+	background-position: -240px 0;
+}
 
+/*	row 2	*/
+.sicon-cloud{
+	background-position: 0 -16px;
+	/*width: 27px;*/
+}
+.sicon-sun{
+	background-position: -16px -16px;
+}
+.sicon-moon{
+	background-position: -32px -16px;
+}
+.sicon-thinleft{
+	background-position: -48px -16px;
+}
+.sicon-thinright{
+	background-position: -64px -16px;
+}
+.sicon-playbtn{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -80px -16px;
+}
+.sicon-circledown{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -96px -16px;
+}
+.sicon-circleup{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -112px -16px;
+}
+.sicon-circleright{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -128px -16px;
+}
+.sicon-circleleft{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -144px -16px;
+}
+.sicon-resizefull{
+	background-position: -160px -16px;
+}
+.sicon-resizesmall{
+	background-position: -176px -16px;
+}
+.sicon-arrowup{
+	background-position: -192px -16px;
+}
+.sicon-arrowdown{
+	background-position: -208px -16px;
+}
+.sicon-arrowright{
+	background-position: -224px -16px;
+}
+.sicon-arrowleft{
+	background-position: -240px -16px;
+}
+
+/*	row 3	*/
+.sicon-remove{
+	background-position: 0 -32px;
+}
+.sicon-ok{
+	background-position: -16px -32px;
+}
+.sicon-unlock{
+	background-position: -32px -32px;
+}
+.sicon-lock{
+	background-position: -48px -32px;
+}
+.sicon-shoppingcart{
+	background-position: -64px -32px;
+}
+.sicon-upload{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -80px -32px;
+}
+.sicon-download{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -96px -32px;
+}
+.sicon-ban{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -112px -32px;
+}
+.sicon-roundok{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -128px -32px;
+}
+.sicon-roundremove{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -144px -32px;
+}
+.sicon-circleexmark{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -160px -32px;
+}
+.sicon-circleinfo{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -176px -32px;
+}
+.sicon-circlequestion{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -192px -32px;
+}
+.sicon-circleok{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -208px -32px;
+}
+.sicon-circleremove{
+/*	width: 26px;
+	height: 26px;
+	line-height: 26px;
+*/	background-position: -224px -32px;
+}
+.sicon-circleminus{
+	background-position: -240px -32px;
+}
+
+/*	row 4	*/
+.sicon-circleplus{
+	background-position: 0 -48px;
+}
+.sicon-thumblines{
+	background-position: -16px -48px;
+}
+.sicon-check{
+	background-position: -32px -48px;
+}
+.sicon-msgminus{
+	background-position: -48px -48px;
+}
+.sicon-msgplus{
+	background-position: -64px -48px;
+}
+.sicon-font{
+	background-position: -80px -48px;
+}
+.sicon-tint{
+	background-position: -96px -48px;
+}
+.sicon-repeat{
+	background-position: -112px -48px;
+}
+.sicon-random{
+	background-position: -128px -48px;
+}
+.sicon-roundabout{
+	background-position: -144px -48px;
+}
+.sicon-refresh{
+	background-position: -160px -48px;
+}
+.sicon-retweet{
+	background-position: -176px -48px;
+}
+.sicon-signal{
+	background-position: -192px -48px;
+}
+.sicon-warning{
+	background-position: -208px -48px;
+}
+.sicon-tags{
+	background-position: -224px -48px;
+}
+.sicon-tag{
+	background-position: -240px -48px;
+}
+
+/*	row 5	*/
+.sicon-lightbubble{
+	background-position: 0 -64px;
+}
+.sicon-power{
+	background-position: -16px -64px;
+}
+.sicon-attach{
+	background-position: -32px -64px;
+}
+.sicon-history{
+	background-position: -48px -64px;
+}
+.sicon-stopwatch{
+	background-position: -64px -64px;
+}
+.sicon-clock{
+	background-position: -80px -64px;
+}
+.sicon-alarm{
+	background-position: -96px -64px;
+}
+.sicon-chartpie{
+/*	width: 27px;*/
+	background-position: -112px -64px;
+}
+.sicon-charthisto{
+	background-position: -128px -64px;
+}
+.sicon-chartline{
+	background-position: -144px -64px;
+}
+.sicon-notes{
+	background-position: -160px -64px;
+}
+.sicon-file{
+	background-position: -176px -64px;
+}
+.sicon-cogwheels{
+	background-position: -192px -64px;
+}
+.sicon-cogwheel{
+	background-position: -208px -64px;
+}
+.sicon-facebook{
+	background-position: -224px -64px;
+}
+.sicon-blank{
+	background-position: -240px -64px;
+}
